@@ -16,7 +16,7 @@ const PrevNext =(props) => {
                 <Link href={`/blog/${props.next[0].slug}`}>
                     <a className={style.linkCard}>
                         <h3>{props.next[0].frontmatter.title}</h3>
-                        <img src="/images/arrow-right.svg" alt="arrow-right" className="arrow-right"/>
+                        <img src="/images/arrow-right.svg" alt="arrow-right"/>
                     </a>
                 </Link>
             }
